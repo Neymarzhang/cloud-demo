@@ -9,4 +9,8 @@ public class TestDo {
     String demo(){
         return "zuul demo !";
     }
+    @RequestMapping("hello")
+    String hello(){
+        return "hello gitte";
+    }
 }
