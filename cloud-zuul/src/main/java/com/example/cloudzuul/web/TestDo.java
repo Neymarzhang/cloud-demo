@@ -11,6 +11,6 @@ public class TestDo {
     }
     @RequestMapping("hello")
     String hello(){
-        return "hello github";
+        return "hello git";
     }
 }
